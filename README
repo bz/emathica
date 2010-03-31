@@ -1,0 +1,21 @@
+Emathica - A Mathematica mode for GNU Emacs
+===========================================
+
+Emathica is an addon for Emacs that allows for a quick edit-save-load-run cycle.
+Emathica.el provides two Emacs major modes and a fast way to switch between them:
+
+
+                       press F2
+
+foo.m buffer           ------------------------->      Mathematica buffer
+in emathica-m-mode                                     in emathica-comint-mode
+                       <-------------------------
+
+                       press F2
+
+When editing foo.m in emathica-m-mode, pressing F2 loads foo.m into a Mathematica 
+kernel running as a subprocess of Emacs. It starts this process unless it is already 
+running, and gives focus to the Mathematica interaction buffer.
+
+Conversely, in emathica-comint-mode, pressing F2 gives focus to the buffer for 
+editing foo.m If Mathematica found a syntax error, the cursor is on the error line.
