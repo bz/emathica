@@ -1,6 +1,4 @@
-;; emathica.el 
-;; A Mathematica mode for GNU Emacs
-;; http://github.com/bz/emathica
+;;; emathica.el --- A Mathematica mode for GNU Emacs
 
 ;; Copyright (C) 2010  Burkhard Zimmermann.
 
@@ -25,8 +23,10 @@
 
 ;; Author:     Burkhard Zimmermann <B.Zimmermann@risc.uni-linz.ac.at>
 ;; Maintainer: Burkhard Zimmermann <B.Zimmermann@risc.uni-linz.ac.at>
-;; Site:       http://github.com/bz
+;; Homepage:   http://github.com/bz/emathica
 ;; Credits:    font-lock support is derived from Tim Wichmann's Emacs Mathematica mode mma.el.
+
+;;; Commentary:
 
 ;; Purpose:
 ;; --------
